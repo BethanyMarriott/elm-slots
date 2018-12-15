@@ -15,22 +15,22 @@ reelToImageSrc : Reel -> String
 reelToImageSrc reel =
     case reel of
         One ->
-            "/images/pompom.png"
+            "images/pompom.png"
 
         Two ->
-            "/images/cheekyscott.png"
+            "images/cheekyscott.png"
 
         Three ->
-            "/images/dopey_hound.png"
+            "images/dopey_hound.png"
 
         Four ->
-            "/images/sibe.png"
+            "images/sibe.png"
 
         Five ->
-            "/images/bully.png"
+            "images/bully.png"
 
         Six ->
-            "/images/shep.png"
+            "images/shep.png"
 
         Seven ->
-            "/images/happy_staffy.png"
+            "images/happy_staffy.png"

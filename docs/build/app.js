@@ -5266,19 +5266,19 @@ var author$project$Update$update = F2(
 var author$project$Config$reelToImageSrc = function (reel) {
 	switch (reel) {
 		case 0:
-			return '/images/pompom.png';
+			return 'images/pompom.png';
 		case 1:
-			return '/images/cheekyscott.png';
+			return 'images/cheekyscott.png';
 		case 2:
-			return '/images/dopey_hound.png';
+			return 'images/dopey_hound.png';
 		case 3:
-			return '/images/sibe.png';
+			return 'images/sibe.png';
 		case 4:
-			return '/images/bully.png';
+			return 'images/bully.png';
 		case 5:
-			return '/images/shep.png';
+			return 'images/shep.png';
 		default:
-			return '/images/happy_staffy.png';
+			return 'images/happy_staffy.png';
 	}
 };
 var author$project$Msg$DecreaseBet = {$: 4};
