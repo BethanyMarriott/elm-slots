@@ -4394,7 +4394,7 @@ function _Browser_load(url)
 	}));
 }
 var author$project$Config$Seven = 6;
-var author$project$Model$initialModel = {bc: 5, bj: 100, bH: 6, bI: 6, bJ: 6, bU: 0};
+var author$project$Model$initialModel = {bc: 10, bj: 100, bH: 6, bI: 6, bJ: 6, bU: 0};
 var author$project$Msg$SetReelOne = function (a) {
 	return {$: 5, a: a};
 };
@@ -5189,7 +5189,7 @@ var author$project$Update$update = F2(
 					if (_n1) {
 						return model.bc;
 					} else {
-						return model.bc + 5;
+						return model.bc + 10;
 					}
 				}();
 				return _Utils_Tuple2(
@@ -5199,9 +5199,9 @@ var author$project$Update$update = F2(
 					elm$core$Platform$Cmd$none);
 			case 4:
 				var decrease = function () {
-					var _n2 = model.bc > 5;
+					var _n2 = _Utils_cmp(model.bc, model.bj) > 0;
 					if (_n2) {
-						return model.bc - 5;
+						return model.bc - 10;
 					} else {
 						return model.bc;
 					}
@@ -5221,7 +5221,7 @@ var author$project$Update$update = F2(
 				return _Utils_Tuple2(
 					_Utils_update(
 						model,
-						{bc: 5}),
+						{bc: 10}),
 					elm$core$Platform$Cmd$none);
 			case 5:
 				var reel = msg.a;

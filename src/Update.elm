@@ -26,7 +26,7 @@ update msg model =
                             model.bet
 
                         False ->
-                            model.bet + 5
+                            model.bet + 10
             in
             ( { model | bet = increase }
             , Cmd.none
@@ -35,9 +35,9 @@ update msg model =
         DecreaseBet ->
             let
                 decrease =
-                    case model.bet > 5 of
+                    case model.bet > model.credits of
                         True ->
-                            model.bet - 5
+                            model.bet - 10
 
                         False ->
                             model.bet
@@ -52,7 +52,7 @@ update msg model =
             )
 
         MinBet ->
-            ( { model | bet = 5 }
+            ( { model | bet = 10 }
             , Cmd.none
             )
 

@@ -16,7 +16,7 @@ type alias Model =
 initialModel : Model
 initialModel =
     { credits = 100
-    , bet = 5
+    , bet = 10
     , reelOne = Seven
     , reelTwo = Seven
     , reelThree = Seven
